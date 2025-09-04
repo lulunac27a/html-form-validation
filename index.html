@@ -6,11 +6,11 @@
     <body>
         <h1>HTML Form Validation</h1>
         <form>
-            Name: <input type="text" name="name" minlength="2" required><br>
-            Date: <input type="text" name="date" pattern="\d{2}/\d{2}/\d{4}" required><br>
-            Email: <input type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required><br>
-            Website: <input type="text" name="website" pattern="(https?://)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}(\/[^\s]*)?" required><br>
-            Phone Number: <input type="text" name="phone" pattern="\d{3}-?\d{3}-?\d{4}" required><br>
+            <label for="name">Name: </label><input type="text" name="name" minlength="2" required><br>
+            <label for="date">Date: </label><input type="text" name="date" pattern="\d{2}/\d{2}/\d{4}" required><br>
+            <label for="email">Email: </label><input type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required><br>
+            <label for="website">Website: </label><input type="text" name="website" pattern="(https?://)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}(\/[^\s]*)?" required><br>
+            <label for="phone">Phone Number: </label><input type="text" name="phone" pattern="\d{3}-?\d{3}-?\d{4}" required><br>
             <button type="submit">Submit</button>
         </form>
     </body>
