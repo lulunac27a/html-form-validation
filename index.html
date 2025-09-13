@@ -8,10 +8,17 @@
         <h1>HTML Form Validation</h1>
         <form>
             <label for="name">Name: </label
-            ><input type="text" name="name" minlength="2" required /><br />
+            ><input
+                type="text"
+                id="name"
+                name="name"
+                minlength="2"
+                required
+            /><br />
             <label for="date">Date: </label
             ><input
                 type="text"
+                id="date"
                 name="date"
                 pattern="\d{2}/\d{2}/\d{4}"
                 required
@@ -19,6 +26,7 @@
             <label for="email">Email: </label
             ><input
                 type="text"
+                id="email"
                 name="email"
                 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                 required
@@ -26,6 +34,7 @@
             <label for="website">Website: </label
             ><input
                 type="text"
+                id="website"
                 name="website"
                 pattern="(https?:\/\/)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}(\/[^\s]*)?"
                 required
@@ -33,6 +42,7 @@
             <label for="phone">Phone Number: </label
             ><input
                 type="text"
+                id="phone"
                 name="phone"
                 pattern="\d{3}-?\d{3}-?\d{4}"
                 required
