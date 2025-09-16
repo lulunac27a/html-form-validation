@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Form Validation in HTML","text":"<p>This is an app that validates form inputs using HTML.</p>"}]}
