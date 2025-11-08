@@ -4,7 +4,7 @@ const dateInput = document.getElementById("date"); //date input
 const emailInput = document.getElementById("email"); //email input
 const websiteInput = document.getElementById("website"); //website input
 const phoneInput = document.getElementById("phone"); //phone input
-const form = document.getElementById("form"); //form
+const form = document.getElementById("form"); //form element
 submitButton.addEventListener("click", (e) => {
     //when submit button is clicked
     e.preventDefault(); //prevent form from submitting
