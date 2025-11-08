@@ -10,7 +10,7 @@ submitButton.addEventListener("click", (e) => {
     e.preventDefault(); //prevent form from submitting
     if (form.checkValidity()) {
         //if form is valid (all inputs are valid)
-        alert("All inputs are valid");
+        alert("All inputs are valid"); //display alert
     } else {
         //if form is invalid
         const invalidFields = Array.from(
@@ -19,6 +19,6 @@ submitButton.addEventListener("click", (e) => {
         const invalidFieldsText = invalidFields
             .map((field) => field.id)
             .join(", ");
-        alert(`The following fields are invalid: ${invalidFieldsText}`);
+        alert(`The following fields are invalid: ${invalidFieldsText}`); //display alert
     }
 });
