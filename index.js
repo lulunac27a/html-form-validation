@@ -9,7 +9,7 @@ submitButton.addEventListener("click", (e) => {
     //when submit button is clicked
     e.preventDefault(); //prevent form from submitting
     if (form.checkValidity()) {
-        //if form is valid
+        //if form is valid (all inputs are valid)
         alert("All inputs are valid");
     } else {
         //if form is invalid
