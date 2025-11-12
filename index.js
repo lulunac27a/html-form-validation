@@ -18,7 +18,7 @@ submitButton.addEventListener("click", (e) => {
         ); //get list of invalid fields
         const invalidFieldsText = invalidFields
             .map((field) => field.id)
-            .join(", "); //set invalid fields text
+            .join(", "); //set invalid fields as text
         alert(`The following fields are invalid: ${invalidFieldsText}`); //display alert
     }
 });
